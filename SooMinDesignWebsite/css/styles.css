@@ -1,0 +1,287 @@
+html {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 37px;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+h1-non {
+  font-size: 37px;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+h1:hover {
+  color: #b00b9a;
+}
+
+h1:visited {
+  text-decoration: none;
+}
+
+
+
+/*@media (max-width: 800px) h1 {
+  font-size: 3rem;
+}
+.example {
+  background: red;
+  color: white;
+}
+
+@media (min-width: 801px) {
+  h1 {
+    font-size: 4rem;
+  } */
+
+h2 {
+  font-size: 24px;
+  font-weight: 300;
+  color: black;
+  text-decoration: none;
+}
+
+h3 {
+  margin: 8rem;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+.example {
+  background: red;
+  color: white;
+}
+
+@media (min-width: 801px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+h4 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 20px;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+p2 {
+  font-size: 18px;
+}
+
+nav {
+  margin-top: 2rem;
+  text-decoration: none;
+}
+
+header {
+  padding-top: 2rem;
+}
+
+main {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.centre {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.centremultiple {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+}
+
+.slay {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 12rem;
+  padding-right:12rem;
+}
+
+/*!
+.imagefix {
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: 0auto;
+} */
+
+/*! img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+} */
+
+img.rounded-corners {
+  width: 50%;
+  height: 20%;
+  border-radius: 50%;
+  }
+  
+.split {display: flex;
+gap: 1rem;
+padding-left: 2rem;
+padding-right: 2rem;}
+
+/*! alt font downloaded .otf from (http://gotico-antiqua.anrt-nancy.fr)*/
+@font-face {
+  font-family: 'hamlet';
+  src: url('fonts/Hamlet-Cicero12.woff') format('woff'),
+       url('fonts/Hamlet-Cicero12.woff2') format(woff2);
+      font-weight: normal;
+      font-style: normal;
+}
+
+h5 {font-family: "hamlet";
+  font-size: 24px;
+  font-weight: 300;}
+
+a {text-decoration: none;
+ color: black;}
+ img {
+  max-width:100%;
+  object-fit: cover;
+ }
+
+ a:hover {
+  color: #b00b9a;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+/*button*/
+
+ .example_d {
+  color: #b00b9a !important;
+  text-transform: uppercase;
+  font-weight: 900;
+  background: #ffffff;
+  margin: 1.5rem;
+  padding: 20px;
+  border: 6px solid #b00b9a !important;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  }
+
+  .example_d:hover {
+    font-weight: 900;
+  color: #7f0946 !important;
+  border-radius: 50px;
+  border-color: #7f0946 !important;
+  transition: all 0.3s ease 0s;
+  }
+
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #b00b9a;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #7f0946;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+/* Linkedin */
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* IG */
+.fa-instagram {
+  background: #ff04fb;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Mail */
+.fa-pinterest {
+  background: #ff0404;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
